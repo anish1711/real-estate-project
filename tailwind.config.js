@@ -11,6 +11,9 @@ module.exports = {
         xl:"1.5rem",
         "2xl":"1.75rem",
         "3xl":"2.25rem",
+      },
+      backgroundImage: {
+        'team-bg-image': "url('/public/teams/team.png')",
       }
     },
   },
