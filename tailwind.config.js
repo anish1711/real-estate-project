@@ -13,7 +13,7 @@ module.exports = {
         "3xl":"2.25rem",
       },
       backgroundImage: {
-        'team-bg-image': "url('/public/teams/team.png')",
+        'team-bg-image': "url('/teams/team.png')",
       }
     },
   },
