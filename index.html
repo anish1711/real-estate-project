@@ -300,47 +300,104 @@ f resin... <span class="text-blue-700">Read more</span>
              <!-- news and update end-->
 
               <!-- project section start -->
-               <section class="p-5 flex flex-col gap-8">
-                <h2 class="text-[#242527] text-xl font-bold">Our collection <br> 
+               <section class="p-5 flex flex-col gap-8 md:max-w[1200px] md:mx-auto">
+                <h2 class="text-[#242527] text-xl font-bold md:text-4xl">Our collection <br> 
                 best project</h2>
                
-               <div class="grid grid-cols-2 gap-5 max-w-[20rem] ">
-                 <img src="/projects/project2.png" alt="" class="hover:cursor-pointer">
-                 <img src="/projects/project3.png" alt="" class="hover:cursor-pointer">
-                 <img src="/projects/project4.png" alt="" class="hover:cursor-pointer">
-                 <img src="/projects/project1.png" alt="" class="hover:cursor-pointer">
-               </div>
+               <!-- <div class="grid grid-cols-2 gap-5 max-w-[20rem] md:grid-cols-4">
+                 <img src="/projects/project1.png" alt="" class="hover:cursor-pointer ">
+                 <img src="/projects/project2.png" alt="" class="hover:cursor-pointer ">
+                 <img src="/projects/project3.png" alt="" class="hover:cursor-pointer ">
+                 <img src="/projects/project4.png" alt="" class="hover:cursor-pointer ">
+               </div> -->
+               <div class="grid grid-cols-2 gap-5 md:grid-cols-4">
+               <picture>
+                <source 
+                media="(min-width: 799px)"
+                srcset="/projects_big/project_big_1.png"
+                />
+                <source 
+                media="(max-width: 800px)"
+                alt="small building"
+                srcset="/projects_big/project_big_1.png"
+                />
+                <img src="/projects_big/project_big_1.png" alt="small building" class="md:w-[500px] md:h-[478px]"/>
+                </picture>
+
+                <picture>
+                <source 
+                media="(min-width: 799px)"
+                srcset="/projects_big/project_big_2.png"
+                />
+                <source 
+                media="(max-width: 800px)"
+                alt="small building"
+                srcset="/projects_big/project_big_2.png"
+                />
+                <img src="/projects_big/project_big_2.png" alt="small building" class="md:w-[500px] md:h-[478px]"/>
+                </picture>
+
+                <picture>
+                <source 
+                media="(min-width: 799px)"
+                srcset="/projects_big/project_big_3.png"
+                />
+                <source 
+                media="(max-width: 800px)"
+                alt="small building"
+                srcset="/projects_big/project_big_3.png"
+                />
+                <img src="/projects_big/project_big_3.png" alt="small building" class="md:w-[500px] md:h-[478px]"/>
+              </picture>
+
+              <picture>
+                <source 
+                media="(min-width: 799px)"
+                srcset="/projects_big/project_big_4.png"
+                />
+                <source 
+                media="(max-width: 800px)"
+                alt="small building"
+                srcset="/projects_big/project_big_4.png"
+                />
+                <img src="/projects_big/project_big_4.png" alt="small building" class="md:w-[500px] md:h-[478px]"/>
+               </picture>
+              </div>
               </section>
 
                <!-- project section end -->
                 <!-- fotter section start -->
-                 <footer class="black-grad p-5 text-white">
-                  <div class="flex flex-col gap-4">
-                  <h2 class=" text-xl font-bold ">Logo</h2>
-                  <p class="text-md font-semibold">is a general contractor 
-                    company based in Jakarta. More than 25 years of experience in building and carving out Indonesia's development.</p>
-                    <div class="flex gap-2 mt-4">
-                      <img src="/socialmedia_icons/social_1.png" alt="">
-                      <img src="/socialmedia_icons/social_2.png" alt="">
-                      <img src="/socialmedia_icons/social_3.png" alt="">
-                      <img src="/socialmedia_icons/social_4.png" alt="">
-                    </div>
+                 <footer class="black-grad">
+                 <div class=" p-5 text-white md:w-[1200px] md:mx-auto ">
+                  <div class="flex flex-col md:flex-row md:gap-[140px] md:py-20 md:w-[1200px] md:mx-auto md:items-baseline">
+                    <div class="flex flex-col gap-4 md:max-w-[550px] ">
+                      <h2 class=" text-xl font-bold ">Logo</h2>
+                      <p class="text-md font-semibold">is a general contractor 
+                        company based in Jakarta. More than 25 years of experience in building and carving out Indonesia's development.</p>
+                        <div class="flex gap-2 mt-4">
+                          <img src="/socialmedia_icons/social_1.png" alt="">
+                          <img src="/socialmedia_icons/social_2.png" alt="">
+                          <img src="/socialmedia_icons/social_3.png" alt="">
+                          <img src="/socialmedia_icons/social_4.png" alt="">
+                        </div>
+                      </div>
+                      <div class="flex mt-10 gap-8">
+                        <div class="flex flex-col mt-10">
+                          <h4 class="text-xl font-bold">company</h4>
+                          <p class="text-md mt-4 cursor-pointer hover:border-white border-b-2 border-transparent ">About</p>
+                          <p class="text-md mt-4 cursor-pointer hover:border-white border-b-2 border-transparent ">How it works</p>
+                          <p class="text-md mt-8 cursor-pointer hover:border-white border-b-2 border-transparent ">Term</p>
+                          <p class="text-md mt-8 cursor-pointer hover:border-white border-b-2 border-transparent ">Privacy Policy</p>
+                        </div>
+                        <div class="flex flex-col mt-10">
+                          <h4 class="text-xl font-bold">More</h4>
+                          <p class="text-md mt-4 cursor-pointer hover:border-white border-b-2 border-transparent ">Documentation</p>
+                          <p class="text-md mt-4 cursor-pointer hover:border-white border-b-2 border-transparent ">License</p>
+                        </div>
+                      </div>
                   </div>
-                  <div class="flex mt-10 gap-8">
-                  <div class="flex flex-col mt-10">
-                    <h4 class="text-xl font-bold">company</h4>
-                    <p class="text-md mt-4 cursor-pointer hover:border-white border-b-2 border-transparent ">About</p>
-                    <p class="text-md mt-4 cursor-pointer hover:border-white border-b-2 border-transparent ">How it works</p>
-                    <p class="text-md mt-8 cursor-pointer hover:border-white border-b-2 border-transparent ">Term</p>
-                    <p class="text-md mt-8 cursor-pointer hover:border-white border-b-2 border-transparent ">Privacy Policy</p>
-                  </div>
-                  <div class="flex flex-col mt-10">
-                    <h4 class="text-xl font-bold">More</h4>
-                    <p class="text-md mt-4 cursor-pointer hover:border-white border-b-2 border-transparent ">Documentation</p>
-                    <p class="text-md mt-4 cursor-pointer hover:border-white border-b-2 border-transparent ">License</p>
-                  </div>
-                </div>
-                 </footer>
+                 </div>
+                </footer>
                  <!-- fotter section end -->
     </main>
     <script type="module" src="/main.js"></script>
